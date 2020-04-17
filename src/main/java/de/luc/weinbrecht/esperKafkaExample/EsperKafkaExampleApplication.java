@@ -8,6 +8,7 @@ public class EsperKafkaExampleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EsperKafkaExampleApplication.class, args);
+		new EsperMain().run();
 	}
 
 }
